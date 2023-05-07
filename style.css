@@ -1,0 +1,113 @@
+
+main {
+    height: 435px;
+    width: 450px;
+    background-color: #B6D0E2;
+    margin-top: 50px;
+    margin-left: 80px;
+    padding-top: 20px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.input-display {
+    background-color: white;
+    margin: 0px 25px;
+    height: 50px;
+    width: 395px;
+    box-shadow: 0px 5px 2px grey;
+}
+
+.input-text{
+    font-size: 40px;
+    font-family: 'Orbitron', sans-serif;
+    padding: 10px 5px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: justify;
+}
+
+span {
+    text-align: center;
+}
+
+.number-button{
+    background-color: white; 
+    width: 23%; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border:1px solid white;
+}
+
+.number-button:hover {
+    background-color:gray;
+  }
+
+  .button-text{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  }
+
+.clear-button {
+    background-color: lightcoral;
+}
+.clear-button:hover {
+    background-color: darkred;
+}
+
+.sign-button {
+    background-color: yellow;
+}
+
+.sign-button:hover {
+    background-color: darkgoldenrod;
+}
+
+
+
+@media only screen and (max-width: 480px) and (min-width: 100px){
+    main {
+        height: 200px;
+        width: 300px;
+        background-color: #B6D0E2;
+        padding-top: 20px;
+        margin: 0 auto;
+        
+    }
+
+    .sign-button:hover {
+        background-color: #333;
+    }
+}
+
+/* 
+
+@media only screen and (min-width: 100px) {
+    .sign-button {
+        background-color: green;
+    }    
+}
+
+@media only screen and (min-width: 481px) {
+    .sign-button {
+        background-color: red;
+    }    
+}
+
+@media only screen and (min-width: 769px) {
+    .sign-button {
+        background-color: cyan;
+    }    
+}
+
+*/
